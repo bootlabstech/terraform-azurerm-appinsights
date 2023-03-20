@@ -18,7 +18,7 @@ variable "application_type" {
   type        = string
 }
 
-variable "workspace_id" {
-  description = "Specifies the id of a log analytics workspace resource. Changing this forces a new resource to be created."
-  type        = string
-}
+# variable "workspace_id" {
+#   description = "Specifies the id of a log analytics workspace resource. Changing this forces a new resource to be created."
+#   type        = string
+# }
